@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="popAnimation" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="android:windowEnterAnimation">@anim/pop_enter</item>
+    <item name="android:windowExitAnimation">@anim/pop_exit</item>
+  </style>
+  <style name="fadeAnimation" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+  </style>
+  <style name="upDownAnimation" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="android:windowEnterAnimation">@anim/slide_up_enter</item>
+    <item name="android:windowExitAnimation">@anim/slide_down_exit</item>
+  </style>
+  <style name="downUpAnimation" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="android:windowEnterAnimation">@anim/slide_down_enter</item>
+    <item name="android:windowExitAnimation">@anim/slide_up_exit</item>
+  </style>
+  <style name="leftRightAnimation" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="android:windowEnterAnimation">@anim/slide_left_enter</item>
+    <item name="android:windowExitAnimation">@anim/slide_right_exit</item>
+  </style>
+  <style name="rightLeftAnimation" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <item name="android:windowEnterAnimation">@anim/slide_right_enter</item>
+    <item name="android:windowExitAnimation">@anim/slide_left_exit</item>
+  </style>
+</resources>

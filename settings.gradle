@@ -1,0 +1,2 @@
+include ':app', ':prodialoglibrary'
+rootProject.name='ProDialog'

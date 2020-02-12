@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="2">
+      <Button
+        android:layout_width="0dp"
+        android:text="Simple Dialog"
+        android:layout_weight="1"
+        android:onClick="simpleDialog"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="withAction"
+        android:text="With Actions"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="2">
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:onClick="withProgress"
+        android:text="with Progress"
+        android:layout_height="wrap_content"/>
+      <Button
+        android:layout_width="0dp"
+        android:text="Button Text Changed"
+        android:layout_weight="1"
+        android:onClick="buttonTextChanged"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="2">
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="popupAnimation"
+        android:text="pop up animation"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="fadeAnimation"
+        android:text="fade animation"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="2">
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="right to left animation"
+        android:onClick="rightLeftAnimation"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:onClick="leftRightAnimation"
+        android:text="left to right animation"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:weightSum="2">
+      <Button
+        android:layout_width="0dp"
+        android:onClick="upDownAnimation"
+        android:layout_weight="1"
+        android:text="Up to down animation"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+      <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="down to up animation"
+        android:onClick="downUpAnimation"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
